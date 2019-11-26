@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Shopee No Ad List
 // @namespace    https://github.com/anazhd/ShopeeAdless/
-// @version      1.2
+// @version      1.3
 // @description  Remove ad from search list.
 // @author       Anazhd
-// @match        *://shopee.com.my/search?*
+// @match        *://shopee.com.my/*
 // @grant        none
 // @run-at       document-start
 // @require http://code.jquery.com/jquery-3.4.1.min.js
