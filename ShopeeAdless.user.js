@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Shopee No Ad List
 // @namespace    https://github.com/anazhd/ShopeeAdless/
-// @version      1.3
+// @version      1.4
 // @description  Remove ad from search list.
 // @author       Anazhd
 // @match        *://shopee.com.my/*
@@ -92,12 +92,12 @@ $(document).ready(function () {
     }
 
     waitForKeyElements(
-        ".shopee-search-item-result__item > div > a > div > div > div > div._3ao649",
+        ".shopee-search-item-result__item > div > a > div > div > div > div[data-sqe='ad']",
         deleteAD
     );
 
     function deleteAD() {
-        document.querySelectorAll(".shopee-search-item-result__item > div > a > div > div > div > div._3ao649").forEach(e => e.parentNode.parentNode.parentNode.remove());
+        document.querySelectorAll(".shopee-search-item-result__item > div > a > div > div > div > div[data-sqe='ad']").forEach(e => e.parentNode.parentNode.parentNode.remove());
     }
 
 });
