@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Shopee No Ad List
 // @namespace    https://github.com/anazhd/ShopeeAdless/
-// @version      1.1.1
+// @version      1.2
 // @description  Remove ad from search list.
 // @author       Anazhd
 // @match        *://shopee.com.my/search?*
