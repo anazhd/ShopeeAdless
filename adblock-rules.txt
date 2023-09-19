@@ -1,1 +1,1 @@
-shopee.com.my##.shopee-search-item-result__item:-abp-has(> div > a > div > div > div > div[data-sqe="ad"])
+shopee.com.my##div.col-xs-2-4.shopee-search-item-result__item:has(div[data-sqe="ad"])
